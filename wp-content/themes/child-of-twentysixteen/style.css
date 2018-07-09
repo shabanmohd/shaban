@@ -1,0 +1,13 @@
+/*
+Theme Name: Theme Black
+Theme URL: shaban.design
+Description: Child theme based on TwentyFifteen
+Author: shaban
+Version: 1.0
+Template: twentyfifteen
+*/
+
+@import url('../twentysixteen/style.css');
+body{
+color:#B0B!important;
+}
