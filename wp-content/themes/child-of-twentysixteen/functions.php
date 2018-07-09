@@ -1,11 +1,11 @@
 <?php
 function wpb_add_google_fonts() {
-wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?family=BioRhyme+Expanded',
+wp_enqueue_style( 'wpb-google-fonts',"https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab",
 false );
 }
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 function my_theme_enqueue_styles() {
-$parent_style = 'twentysixteen-style'; // This is 'twentysixteen-style' for the Twenty Sixteen theme.
+$parent_style = 'twentysixteen-style'; // This is 'twentysixteen-style' for the Twenty Fifteen theme.
 wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 wp_enqueue_style( 'child-style',
 get_stylesheet_directory_uri() . '/style.css',
