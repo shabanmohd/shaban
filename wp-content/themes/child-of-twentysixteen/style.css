@@ -1,13 +1,24 @@
 /*
 Theme Name: Theme Black
 Theme URL: shaban.design
-Description: Child theme based on TwentyFifteen
+Description: Child theme based on TwentySixteen
 Author: shaban
 Version: 1.0
-Template: twentyfifteen
+Template: twentysixteen
 */
 
 @import url('../twentysixteen/style.css');
-body{
-color:#B0B!important;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+.entry-title {
+    font-family: 'Open Sans', sans-serif;}
+
+body, button, input, select, textarea {
+    color: #1a1a1a;
+    font-family: 'Roboto Slab', serif;}
+
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #43cc61;
